@@ -8,24 +8,20 @@ namespace FizzBuzz
 		{
 			for (int i = 1; i <= 100; i++)
 			{
-				string oStr = string.Empty;
+				string oStr = i % 3 == 0
+					? "Fizz"
+					: string.Empty;
 
-				if (i % 3 == 0)
-				{
-					oStr = "Fizz";
-				}
+				oStr += i % 5 == 0
+					? string.IsNullOrEmpty(oStr)
+						? "Buzz"
+						: " Buzz"
+					: string.Empty;
 
-				if (i % 5 == 0)
-				{
-					oStr += string.IsNullOrEmpty(oStr) ? "Buzz" : " Buzz";
-				}
-
-				if (string.IsNullOrEmpty(oStr))
-				{
-					oStr = i.ToString();
-				}
-
-				Console.WriteLine(oStr);
+				Console.WriteLine(
+					string.IsNullOrEmpty(oStr)
+						? i.ToString()
+						: oStr);
 			}
 
 			Console.WriteLine("Press any key to continue...");
