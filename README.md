@@ -3,9 +3,9 @@ A project to implement FizzBuzz (and maybe more) solutions in many different pro
 
 ## FizzBuzz Description
 
-1. Count from 1 to n.
+1. Count from 1 to 100.
 
 2. Print out each number sequentially, except-
     * Print "Fizz" instead, for numbers divisible by 3.
     * Print "Buzz" instead, for numbers divisible by 5.
-    * Print "FizzBuzz" instead, for numbers divisible by both 3 and 5.
+    * Print "Fizz Buzz" instead, for numbers divisible by both 3 and 5.
