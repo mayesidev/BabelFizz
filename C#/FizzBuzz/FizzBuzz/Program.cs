@@ -24,7 +24,7 @@ namespace FizzBuzz
 						: oStr);
 			}
 
-			Console.WriteLine("Press any key to continue...");
+			Console.WriteLine("Please press any key to continue...");
 			Console.ReadKey();
 		}
 	}
