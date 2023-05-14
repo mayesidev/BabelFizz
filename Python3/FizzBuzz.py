@@ -1,5 +1,8 @@
 def main():
-    for i in range(1,100):
+    FizzBuzz(100)
+
+def FizzBuzz(max):
+    for i in range(1,max):
         oStr = ""
         if i%3==0:
             oStr = "Fizz"
