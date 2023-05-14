@@ -1,12 +1,13 @@
 # BabelFizz
 
-A project to implement FizzBuzz (and maybe more) solutions in many different programming languages.
+A project to implement a solution for FizzBuzz in different programming languages.
 
 ## FizzBuzz Description
 
-1. Count from 1 to 100.
+Print out sequential numbers from 1 to n, except when the number is divisible by-
 
-2. Print out each number sequentially, except-
-    * Print "Fizz" instead, for numbers divisible by 3.
-    * Print "Buzz" instead, for numbers divisible by 5.
-    * Print "Fizz Buzz" instead, for numbers divisible by both 3 and 5.
+* 3, then print "Fizz" instead.
+* 5, then print "Buzz" instead.
+* Both 3 and 5, then print "Fizz Buzz" instead.
+
+See [expected-output.txt](.\expected-output.txt) for an example where n=100.
