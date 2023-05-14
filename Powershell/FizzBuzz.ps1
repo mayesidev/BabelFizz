@@ -1,5 +1,5 @@
-function Write-FizzBuzz{
-    For ($i = 1; $i -le 100; $i++)
+function Write-FizzBuzz($max){
+    For ($i = 1; $i -le $max; $i++)
     {
         $oStr = ""
         if(!($i % 3))
@@ -25,4 +25,4 @@ function Write-FizzBuzz{
     }
 }
 
-Write-FizzBuzz
+Write-FizzBuzz(100)
