@@ -1,6 +1,13 @@
 Public Module Program
     Public Sub Main(args As String())
-        For i As Integer = 1 To 100
+        FizzBuzz(100)
+
+        Console.WriteLine("Please press any key to continue...")
+        Console.ReadKey()
+    End Sub
+
+    Private Sub FizzBuzz(max As Integer)
+        For i As Integer = 1 To max
             Dim oStr As String = String.Empty
 
             If i Mod 3 = 0 Then
@@ -21,8 +28,5 @@ Public Module Program
 
             Console.WriteLine(oStr)
         Next
-
-        Console.WriteLine("Please press any key to continue...")
-        Console.ReadKey()
     End Sub
 End Module
