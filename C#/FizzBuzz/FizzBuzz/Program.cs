@@ -6,7 +6,14 @@ namespace FizzBuzz
 	{
 		public static void Main(string[] args)
 		{
-			for (int i = 1; i <= 100; i++)
+			FizzBuzz(100);
+			Console.WriteLine("Please press any key to continue...");
+			Console.ReadKey();
+		}
+
+		private static void FizzBuzz(int max)
+		{
+			for (int i = 1; i <= max; i++)
 			{
 				string oStr = i % 3 == 0
 					? "Fizz"
@@ -23,9 +30,6 @@ namespace FizzBuzz
 						? i.ToString()
 						: oStr);
 			}
-
-			Console.WriteLine("Please press any key to continue...");
-			Console.ReadKey();
 		}
 	}
 }
