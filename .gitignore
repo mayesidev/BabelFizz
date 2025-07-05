@@ -321,3 +321,11 @@ bin/
 ##################################################
 # End IntelliJ ignore section
 ##################################################
+
+### R ###
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+*.Rout
