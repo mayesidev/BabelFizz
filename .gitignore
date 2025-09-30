@@ -329,3 +329,7 @@ bin/
 .RDataTmp
 .Ruserdata
 *.Rout
+
+### Dart ###
+.dart_tool/
+!Dart/*/bin/
